@@ -895,7 +895,7 @@ body:not(.post-template) .post-title {
    the class is applied with jQuery */
 .post-content .full-img {
     // width: 126%;
-    max-width: none;
+    // max-width: none;
     // margin: 0 -13%;
 }
 

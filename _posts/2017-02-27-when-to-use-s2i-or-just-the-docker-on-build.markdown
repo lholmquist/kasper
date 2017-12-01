@@ -4,7 +4,7 @@ title:  "Dockerizing Node.js Apps"
 date:   2017-02-27
 disqus: true
 permalink: when-to-use-s2i-or-just-the-docker-on-build
-categories: [Node.js, nodeshift, openshift, node, source-to-image, s2i]
+categories: Node.js nodeshift openshift node source-to-image s2i
 ---
 
 I like Node.js and I like Docker.  While I am not an expert on either, I do pretend to be one at work.
