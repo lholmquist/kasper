@@ -796,11 +796,11 @@ body:not(.post-template) .post-title {
 
 .post-date {
     display: inline-block;
-    margin-left: 8px;
-    padding-left: 12px;
-    border-left: #d5dbde 1px solid;
-    text-transform: uppercase;
-    font-size: 1.3rem;
+    // margin-left: 8px;
+    // padding-left: 12px;
+    // border-left: #d5dbde 1px solid;
+    // text-transform: uppercase;
+    // font-size: 1.3rem;
     white-space: nowrap;
 }
 
@@ -894,9 +894,9 @@ body:not(.post-template) .post-title {
 /* Break out larger images to be wider than the main text column
    the class is applied with jQuery */
 .post-content .full-img {
-    width: 126%;
+    // width: 126%;
     max-width: none;
-    margin: 0 -13%;
+    // margin: 0 -13%;
 }
 
 /* The author credit area after the post */
@@ -1631,7 +1631,7 @@ body:not(.post-template) .post-title {
     .post-content .full-img {
         width: auto;
         width: calc(100% + 32px); /* expand with to image + margins */
-        margin: 0 -16px; /* get rid of margins */
+        // margin: 0 -16px; /* get rid of margins */
         min-width: 0;
         max-width: 112%; /* fallback when calc doesn't work */
     }

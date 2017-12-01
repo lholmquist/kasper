@@ -99,7 +99,7 @@ We use the docker build command with the `-t` flag so we can tag it with the nam
 
 Running a `docker image list` should output something similiar:
 
-{<1>}![docker-image](/content/images/2017/Feb/Screen_Shot_2017_02_22_at_10_51_10_AM.png)
+![docker-image](/content/images/2017/Feb/Screen_Shot_2017_02_22_at_10_51_10_AM.png)
 
 
 Now, that is only an image, so to run it, you can do something like this:
@@ -110,7 +110,7 @@ docker run -p 8080:8080 lholmquist/docker-web-app
 
 And you should see something similiar in your console:
 
-{<2>}![](/content/images/2017/Feb/Screen_Shot_2017_02_22_at_10_53_26_AM.png)
+![](/content/images/2017/Feb/Screen_Shot_2017_02_22_at_10_53_26_AM.png)
 
 And if you go to [http://localhost:8080](http://localhost:8080) in a browser, you should see something.
 
