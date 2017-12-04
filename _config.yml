@@ -12,6 +12,6 @@ google_analytics: 'UA-XXXXXXXX-X'
 plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'lholmquist.github.org'
+url:            'blog.lholmquist.org'
 author:         'Lucas Holmquist'
 bio: This is my Bio. I Know. Interesting Stuff
