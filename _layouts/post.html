@@ -8,7 +8,7 @@ post_class: post-template
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
     <div class="vertical">
         <div class="main-header-content inner">
-            <a style="text-decoration:none" href="{{site.url}}"<h1 class="page-title">{{ site.name }} - {{site.baseurl}}</h1></a>
+            <a style="text-decoration:none" href="{{"/" | relative_url}}"<h1 class="page-title">{{ site.name }} - {{relative_url}}</h1></a>
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
@@ -66,7 +66,7 @@ post_class: post-template
             <!-- If we want to display author's name and bio -->
             {% if site.author %}
                 <figure class="author-image">
-                    <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/profile.png)">
+                    <a class="img" href="{{ "/" | relative_url }}" style="background-image: url(/assets/images/profile.png)">
                     <span class="hidden">{{site.author}}'s Picture</span></a>
                 </figure>
                 <section class="author">
